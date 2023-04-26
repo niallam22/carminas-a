@@ -13,7 +13,9 @@ export default function PostsPage() {
     const skip = currentPage * postsPerPage;
     const limit = postsPerPage;
     fetch(`http://localhost:4000/post?skip=${skip}&limit=${limit}`)
-      .then((response) => response.json())
+    .then(response => {
+      return response.json();
+    })
       .then(({ posts, pagination }) => {
         setPosts(posts);
         setPagination(pagination);
