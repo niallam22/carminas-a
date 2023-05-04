@@ -50,7 +50,7 @@
     "dev": "concurrently \"npm:dev-client\" \"npm:dev-api\"",
     "dev-client": "cd client && npm start",
     "dev-api": "cd api && npm run dev",
-    "start": "cd api && npm start",
+    "start": "cd api && node index.js",
     "build": "cd client && npm run build",
     "mock-cyclic": "npm run build && npm run start",
     "lint": "eslint .",
