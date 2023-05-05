@@ -8,8 +8,6 @@ const logger = require('morgan')
 const path = require("path");
 require('dotenv').config({path: './config/.env'})
 
-connectDB()   
-
 // Enable CORS for client origin only
 const corsOptions = {
   credentials:true,
@@ -31,6 +29,9 @@ app.get('*', (req, res) => {
   res.sendFile(path.join(__dirname, "..", 'client/build', 'index.html'));
 });
 
-app.listen(process.env.PORT, ()=>{
-  console.log(`Server is running on port ${process.env.PORT}, you better catch it!`)
-})  
+//Connect to the database before listening
+connectDB().then(() => {
+  app.listen(process.env.PORT, ()=>{
+    console.log(`Server is running on port ${process.env.PORT}, you better catch it!`)
+  })  
+})
