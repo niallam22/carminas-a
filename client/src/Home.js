@@ -17,9 +17,7 @@ export default function Home() {
 						<h2>Carmina Bernhardt</h2>
 					</header>
 					<span>
-					<HashLink to="#">
 							Award winning actor, writer, director
-					</HashLink>
 					</span>
 					<span>
 						"When you're with me you have every fucking right to jump like a kangaroo"

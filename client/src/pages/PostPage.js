@@ -32,7 +32,7 @@ export default function PostPage() {
           <div className="authorInfo">
           <div className="author">{postInfo.author.username}</div>
             <time>{(new Date(postInfo.createdAt)).toLocaleDateString("en-GB", options)}</time>
-            <Link className="back" to={`/posts`}>Back</Link>
+            <Link className="back" to={`/posts`}>Posts &gt;</Link>
           </div>
         </div>
 
