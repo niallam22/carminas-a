@@ -54,7 +54,7 @@ function App() {
             <Route path="/posts" element={<PostsPage />} />
             <Route path="/login" element={<LoginPage />} />
             <Route path="/register" element={<RegisterPage />} />
-            <Route path="/post/:id" element={<PostPage />} />
+            <Route path="/postPg/:id" element={<PostPage />} />
 
             {/* private routes */}
             <Route exact path='/create' element={<PrivateRoute/>}>
