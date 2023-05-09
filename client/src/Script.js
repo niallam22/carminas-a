@@ -11,7 +11,6 @@ export default function Script(){
             duration:1}
       }
     }
-
     return(
         <motion.section
         id="script" 
