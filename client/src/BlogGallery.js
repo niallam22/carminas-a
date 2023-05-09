@@ -23,7 +23,7 @@ export default function BlogGallery(){
     return (
 
         <section id="blogGallery" className="main style2">
-        <div className="content box">
+        <div className="content box light">
             <header>
                 <h2 id="blogHeading">Blog</h2>
             </header>

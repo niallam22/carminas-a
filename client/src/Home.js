@@ -11,6 +11,7 @@ export default function Home() {
 		<>
         	<section id="home" className="main style1 dark fullscreen">
 			<video autoPlay muted loop id="myVideo" src={backgroundVid} type="video/mp4"></video>
+			<div className="backgroundImage"></div>
 
 				<div className="home content">
 					<header>
