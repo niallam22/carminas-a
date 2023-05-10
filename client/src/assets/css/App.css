@@ -1788,18 +1788,13 @@ input, select, textarea {
 /* Actor */
 
 	#actor {
-		background: rgb(21,205,205);
-		background: linear-gradient(175deg, rgb(9, 109, 109) 4%, rgba(0,128,128,1) 67%);
+		background: rgb(141,175,181);
+		background: linear-gradient(175deg, rgba(141,175,181,1) 0%, rgba(79,121,128,1) 65%);
 		z-index: 10;
-
 	}
 
 	#coach {
-
-
-		background: rgb(2,0,36);
-		background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
-		background-blend-mode: multiply,multiply;
+		background: #FFFFFF;
 		z-index: 10;
 	}
 	
@@ -1807,22 +1802,26 @@ input, select, textarea {
 		background: rgb(232,227,214);
 		background-image: linear-gradient(to right, #434343 0%, black 100%);
 		background-blend-mode: multiply,multiply;
+
+		background: rgb(2,0,36);
+		background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
+		background-blend-mode: multiply,multiply;
+
+		background: rgb(143,134,133);
+		background: linear-gradient(197deg, rgba(143,134,133,1) 16%, rgba(170,164,164,1) 66%);
 		z-index: 10;
 	}
 	#script {
-		background: rgb(2,0,36);
-		background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
+		background: #353535; 
 		z-index: 10;
 	}
 	#about {
 
-		background: rgb(217,206,204);
-		background-image: linear-gradient(to top, #c4c5c7 0%, #dcdddf 52%, #ebebeb 100%);
+		background: rgb(255,255,255);
 		z-index: 10;
 	}
 	#blogGallery {
-		background: rgb(63,84,45);
-		background-image: linear-gradient(to top, #d5d4d0 0%, #d5d4d0 1%, #eeeeec 31%, #efeeec 75%, #e9e9e7 100%);
+		background: rgb(243,243,243);
 		z-index: 10;
 	}
 

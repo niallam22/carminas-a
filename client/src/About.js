@@ -1,7 +1,7 @@
 export default function About(){
     return(
         <section id="about" className="main style2">
-        <div className="content box">
+        <div className="content box light">
             <header>
                 <h2 id="aboutHeading">Carmina Bernhardt</h2>
             </header>
