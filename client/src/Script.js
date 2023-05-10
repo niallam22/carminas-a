@@ -21,7 +21,7 @@ export default function Script(){
         viewport={{once:false, amount:0.1}} //animation takes place when 0.1 of the parent element is in view and will happen anytime this event takes place
         >
             <motion.div 
-                className="content box light"
+                className="content box"
                 variants={contentAnimate}
             >
             <header>
