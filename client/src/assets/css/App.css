@@ -3017,29 +3017,21 @@ input, select, textarea {
 
 /* Intro */
 
-	#intro {
-		background: url("../images/fulls/04.jpg");
-		background-size: 256px 256px, cover;
-		background-attachment: fixed, fixed;
-		background-position: top left, bottom center;
-		background-repeat: repeat, no-repeat;
-	}
-	.backgroundImage{
-		background: rgb(2,0,36);
+	.backgroundImage {
+		background: rgb(121, 121, 121);
 		background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
 		background-blend-mode: multiply,multiply;
-		background: url("http://placekitten.com/1000/500"); /* ../images/fulls/04.jpg*/
+		background: url("http://placekitten.com/1000/800");
 		background-size: cover;
-		background-attachment: fixed, fixed;
-		background-position: top left, bottom center;
-		background-repeat: repeat, no-repeat;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-attachment: fixed;
 		z-index: -2;
-	}
+	  }
 
 	#myVideo{
 		z-index: -1;
 	}
-
 	#myVideo, .backgroundImage {
 		position: fixed;
 		left: 50%;
