@@ -1,4 +1,7 @@
 import { motion, spring, Variants } from "framer-motion"
+import anneImg from "./assets/images/anneImg.jpeg"
+import anneImg2 from "./assets/images/anneImg2.jpeg"
+
 export default function Actor(props){
 
     // const {  bool, contentAnimate } = props;
@@ -40,30 +43,22 @@ export default function Actor(props){
 
                 <div className="mainContent">
                    <div className="upperContainer">
-                        <img src="http://placekitten.com/200/300" alt="Meisner" />
+                        <img src={anneImg} alt="Meisner" />
                         <div className="textContainer">
-                          <p>Lorem ipsum dolor sit amet et sapien sed elementum egestas dolore condimentum.
-                        Fusce blandit ultrices sapien, in accumsan orci rhoncus eu. Sed sodales venenatis arcu,
-                        id varius justo euismod in. Curabitur egestas consectetur magna.
+                          <p>I am an experienced actor specializing in both theatrical and screen performances, deeply connecting with the characters I portray to bring their stories to life from my own unique perspective. 
                             </p>
-                            <p>Lorem ipsum dolor sit amet et sapien sed elementum egestas dolore condimentum.
-                        Fusce blandit ultrices sapien, in accumsan orci rhoncus eu. Sed sodales venenatis arcu,
-                        id varius justo euismod in. Curabitur egestas consectetur magna.
+                            <p>With a foundation in traditional acting from my training at the New York Film School, combined with personal experiences, I create authentic and profoundly human performances that aim to transport audiences and explore the complexities of the human condition. 
                             </p>
                         </div>
                     </div>
                     <div className="lowerContainer">
                         <div className="textContainer">
-                            <p>Lorem ipsum dolor sit amet et sapien sed elementum egestas dolore condimentum.
-                        Fusce blandit ultrices sapien, in accumsan orci rhoncus eu. Sed sodales venenatis arcu,
-                        id varius justo euismod in. Curabitur egestas consectetur magna.
+                            <p>Each role I take on becomes an opportunity for self-discovery and a chance to explore the complexities of the human condition.
                             </p>
-                            <p>Lorem ipsum dolor sit amet et sapien sed elementum egestas dolore condimentum.
-                        Fusce blandit ultrices sapien, in accumsan orci rhoncus eu. Sed sodales venenatis arcu,
-                        id varius justo euismod in. Curabitur egestas consectetur magna.
+                            <p>Explore my portfolio to witness over 15 years of dedicated passion, joining me on an artistic journey of compelling storytelling and a shared exploration of what it means to be human.
                             </p>
                         </div>
-                        <img src="http://placekitten.com/200/300" alt="Meisner" />
+                        <img src={anneImg2} alt="Meisner" />
                     </div>
 
                 </div>

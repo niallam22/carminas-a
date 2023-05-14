@@ -1,4 +1,6 @@
 import { motion, spring, Variants } from "framer-motion"
+import anneImg5 from "./assets/images/anneImg5.jpeg"
+import anneImg6 from "./assets/images/anneImg6.jpeg"
 
 export default function Script(){
 
@@ -11,7 +13,6 @@ export default function Script(){
             duration:1}
       }
     }
-
     return(
         <motion.section
         id="script" 
@@ -30,30 +31,22 @@ export default function Script(){
             </header>
             <div className="mainContent">
                 <div className="upperContainer">
-                    <img src="http://placekitten.com/200/300" alt="Meisner" />
+                <img src={anneImg5} alt="anne modeling" />
                     <div className="textContainer">
-                        <p>Lorem ipsum dolor sit amet et sapien sed elementum egestas dolore condimentum.
-                            Fusce blandit ultrices sapien, in accumsan orci rhoncus eu. Sed sodales venenatis arcu,
-                            id varius justo euismod in. Curabitur egestas consectetur magna.
+                        <p>As an experienced actor and writer of theatrical and screen performances, I bring a unique perspective to script writing consultation,
                         </p>
-                        <p>Lorem ipsum dolor sit amet et sapien sed elementum egestas dolore condimentum.
-                            Fusce blandit ultrices sapien, in accumsan orci rhoncus eu. Sed sodales venenatis arcu,
-                            id varius justo euismod in. Curabitur egestas consectetur magna.
+                        <p>Whether you're in the early stages of concept development or seeking feedback on a completed script my approach to writing seeks to explore the relationships and themes in the field.
                         </p>
                     </div>
                 </div>
                 <div className="lowerContainer">
                     <div className="textContainer">
-                        <p>Lorem ipsum dolor sit amet et sapien sed elementum egestas dolore condimentum.
-                            Fusce blandit ultrices sapien, in accumsan orci rhoncus eu. Sed sodales venenatis arcu,
-                            id varius justo euismod in. Curabitur egestas consectetur magna.
+                        <p>Together, we will delve into the depths of your narrative, uncovering its true potential and ensuring that every scene captivates and engages viewers.
                         </p>
-                        <p>Lorem ipsum dolor sit amet et sapien sed elementum egestas dolore condimentum.
-                            Fusce blandit ultrices sapien, in accumsan orci rhoncus eu. Sed sodales venenatis arcu,
-                            id varius justo euismod in. Curabitur egestas consectetur magna.
+                        <p>Get in touch and let's discuss how we can shape your script into a powerful and compelling story that reflects and speaks the truth of your creative vision.
                         </p>
                     </div>
-                    <img src="http://placekitten.com/200/300" alt="Meisner" />
+                    <img src={anneImg6} alt="anne modeling" />
                 </div>
 
             </div>

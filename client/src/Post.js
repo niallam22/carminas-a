@@ -10,13 +10,13 @@ const options = { year: 'numeric', month: 'long', day: 'numeric' };
 
         <div className="postWrapper">
           <div className="imageContainer">
-              <Link to={`/post/${_id}`}>
+              <Link to={`/postPg/${_id}`}>
                 <img src={cover} alt="cover image"/>
               </Link>
           </div>
 
           <div className="texts">
-          <Link to={`/post/${_id}`}>
+          <Link to={`/postPg/${_id}`}>
             <h2>{title}</h2>
           
             <div className="authorInfo">

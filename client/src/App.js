@@ -20,9 +20,8 @@ import Home from "./Home"
 import Actor from './Actor';
 import Contact from './Contact';
 import Coach from './Coach';
-import MediaTraining from './MediaTraining'
 import Script from './Script'
-import About from './About'
+// import About from './About'
 import BlogGallery from './BlogGallery';
 import Gallery from './Gallery';
 import Testimonial from './Testimonial'
@@ -43,9 +42,8 @@ function App() {
               <Route path="/#actor" element={<Actor bool={true} contentAnimate={contentAnimate} />} />
               {/* <Route path="/#actor" render={(props)=> (<Actor bool={true} contentAnimate={contentAnimate} {...props} />)} /> */}
               <Route path="/#coach" element={<Coach />} />
-              <Route path="/#mediaTraining" element={<MediaTraining />} />
               <Route path="/#script" element={<Script />} />
-              <Route path="/#about" element={<About />} />
+              {/* <Route path="/#about" element={<About />} /> */}
               <Route path="/#blogGallery" element={<BlogGallery />} />
               <Route path="/#gallery" element={<Gallery />} />
               <Route path="/#testimonial" element={<Testimonial />} />
@@ -54,7 +52,7 @@ function App() {
             <Route path="/posts" element={<PostsPage />} />
             <Route path="/login" element={<LoginPage />} />
             <Route path="/register" element={<RegisterPage />} />
-            <Route path="/post/:id" element={<PostPage />} />
+            <Route path="/postPg/:id" element={<PostPage />} />
 
             {/* private routes */}
             <Route exact path='/create' element={<PrivateRoute/>}>

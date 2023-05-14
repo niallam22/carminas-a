@@ -62,10 +62,7 @@ export default function Gallery(){
         <section id="gallery" className="main style3 primary">
         <div className="content">
             <header>
-                <h2 id="galleryHeading">My Craft</h2>
-                <p>Lorem ipsum dolor sit amet et sapien sed elementum egestas dolore condimentum.
-                Fusce blandit ultrices sapien, in accumsan orci rhoncus eu. Sed sodales venenatis
-                arcu, id varius justo euismod in. Curabitur egestas consectetur magna vitae.</p>
+                <h2 id="galleryHeading">Gallery</h2>
 
             </header>
             <div className="galleryWrapper">

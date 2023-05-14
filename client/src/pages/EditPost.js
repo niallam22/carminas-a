@@ -68,7 +68,7 @@ function rejectDelete(){
       credentials: 'include',
     });
     if (response.ok) {
-      navigate('/post/'+id);
+      navigate('/postPg/'+id);
     }
   }
 

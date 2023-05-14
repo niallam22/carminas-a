@@ -7,7 +7,7 @@ export default function BlogCard({_id,title,summary,cover,content,createdAt,auth
                         <figcaption className="card__caption">
                             <h2 className="card__title">{title}</h2>
                             <p className="card__snippet">{summary}</p>
-                            <Link className="card__button"to={`/post/${_id}`}>
+                            <Link className="card__button"to={`/postPg/${_id}`}>
                             Read more
                             </Link>    
                         </figcaption>
