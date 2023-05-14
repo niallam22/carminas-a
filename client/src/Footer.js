@@ -10,7 +10,7 @@ export default function Footer(){
             </ul>
 
             <ul className="menu">
-                <li>&copy; Carmina Bernhardt</li>
+                <li>&copy; Anne Marie</li>
             </ul>
 
     </footer>

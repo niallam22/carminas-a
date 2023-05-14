@@ -1,4 +1,6 @@
 import { motion, spring, Variants } from "framer-motion"
+import anneImg3 from "./assets/images/anneImg3.jpeg"
+import anneImg4 from "./assets/images/anneImg4.jpeg"
 export default function Coach(){
 
     const contentAnimate={
@@ -30,34 +32,24 @@ export default function Coach(){
 
             <div className="mainContent">
                 <div className="upperContainer">
-                    <img src="http://placekitten.com/200/300" alt="Meisner" />
+                <img src={anneImg3} alt="anne modeling" />
                     <div className="textContainer">
-                        <p>Lorem ipsum dolor sit amet et sapien sed elementum egestas dolore condimentum.
-                            Fusce blandit ultrices sapien, in accumsan orci rhoncus eu. Sed sodales venenatis arcu,
-                            id varius justo euismod in. Curabitur egestas consectetur magna.
+                        <p>As an experienced actor and dedicated acting coach, I bring my passion for storytelling to guide and nurture aspiring performers in various realms of the craft. 
                         </p>
-                        <p>Lorem ipsum dolor sit amet et sapien sed elementum egestas dolore condimentum.
-                            Fusce blandit ultrices sapien, in accumsan orci rhoncus eu. Sed sodales venenatis arcu,
-                            id varius justo euismod in. Curabitur egestas consectetur magna.
+                        <p>From musical theatre to voice acting, I offer a comprehensive approach that blends traditional techniques with improvisational skills, equipping students with the tools to excel in both screen and theatrical performances.
                         </p>
                     </div>
                 </div>
                 <div className="lowerContainer">
                     <div className="textContainer">
-                        <p>Lorem ipsum dolor sit amet et sapien sed elementum egestas dolore condimentum.
-                            Fusce blandit ultrices sapien, in accumsan orci rhoncus eu. Sed sodales venenatis arcu,
-                            id varius justo euismod in. Curabitur egestas consectetur magna.
-                        </p>
-                        <p>Lorem ipsum dolor sit amet et sapien sed elementum egestas dolore condimentum.
-                            Fusce blandit ultrices sapien, in accumsan orci rhoncus eu. Sed sodales venenatis arcu,
-                            id varius justo euismod in. Curabitur egestas consectetur magna.
+                        <p>My coaching philosophy is rooted in fostering authentic and deeply human portrayals, allowing students to discover their unique artistic voices while deepening connection with intuition and natural impluses.</p>
+                        <p>Join me on a transformative journey of self-discovery and artistic growth as we unlock the full potential of your acting abilities.
                         </p>
                     </div>
-                    <img src="http://placekitten.com/200/300" alt="Meisner" />
+                    <img src={anneImg4} alt="anne modeling" />
                 </div>
 
             </div>
-
         </motion.div>
     </motion.section>
     )

@@ -60,9 +60,9 @@ export default function TestimonialSection() {
               <div className="quote">
                 <img className="quote-icon" src="https://md-aqil.github.io/images/quote.png" alt="" />
                 <p>
-                  "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis mollitia, nostrum similique qui perferendis aliquam voluptatum magni repellat deleniti, nobis dicta. Optio veniam maiores nam sapiente suscipit eius provident aliquid."
+                  "Working with Anne has been an incredible journey of self-discovery and growth. She created a safe and enjoyable environment where I had so much fun while gaining the confidence to shine as an actor."
                 </p>
-                <div className="name">-Ben Dover-</div>
+                <div className="name">-Stacey Adams-</div>
                 <div className="designation">Student</div>
               </div>
             </SwiperSlide>
@@ -70,29 +70,29 @@ export default function TestimonialSection() {
               <div className="quote">
                 <img className="quote-icon" src="https://md-aqil.github.io/images/quote.png" alt="" />
                 <p>
-                  "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis mollitia, nostrum similique qui perferendis aliquam voluptatum magni repellat deleniti, nobis dicta. Optio veniam maiores nam sapiente suscipit eius provident aliquid."
+                  "Collaborating with Anne as a scriptwriter was an absolute pleasure. Her creative insights and attention to detail brought our project to life in ways I couldn't have imagined. I highly recommend working with her."
                 </p>
-                <div className="name">-Ben Dover-</div>
-                <div className="designation">Student</div>
+                <div className="name">-Gabi Rayleigh-</div>
+                <div className="designation">Writer</div>
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div className="quote">
                 <img className="quote-icon" src="https://md-aqil.github.io/images/quote.png" alt="" />
                 <p>
-                  "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis mollitia, nostrum similique qui perferendis aliquam voluptatum magni repellat deleniti, nobis dicta. Optio veniam maiores nam sapiente suscipit eius provident aliquid."
+                  "Performing alongside Anne in a theatrical production was an enriching experience. Her passion, dedication, and exceptional talent brought a magical energy to the stage."
                 </p>
-                <div className="name">-Ben Dover-</div>
-                <div className="designation">Student</div>
+                <div className="name">-Ben Layenski-</div>
+                <div className="designation">Actor</div>
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div className="quote">
                 <img className="quote-icon" src="https://md-aqil.github.io/images/quote.png" alt="" />
                 <p>
-                  "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis mollitia, nostrum similique qui perferendis aliquam voluptatum magni repellat deleniti, nobis dicta. Optio veniam maiores nam sapiente suscipit eius provident aliquid."
+                  "Anne's guidance and support took my acting skills to a whole new level. She helped me break through a plateau, deepening my connection with characters and bringing authenticity to my performances."
                 </p>
-                <div className="name">-Ben Dover-</div>
+                <div className="name">-Lucy Traton-</div>
                 <div className="designation">Student</div>
               </div>
             </SwiperSlide>
@@ -125,16 +125,16 @@ export default function TestimonialSection() {
         modules={[EffectCoverflow, Pagination, Navigation, Autoplay, Thumbs, FreeMode]}
       >
             <SwiperSlide>
-              <img className="u3" src="http://placekitten.com/100/150" alt="" />
+              <img className="u3" src="https://res.cloudinary.com/dtfxpyxoc/image/upload/c_limit,f_jpg,fl_lossy.any_format.preserve_transparency.progressive,h_1600,pg_1,q_auto,w_1600/v1/gallery_acting/kurstulwjwglp5h3pnpz" alt="" />
             </SwiperSlide>
             <SwiperSlide>
-              <img className="u1" src="http://placekitten.com/100/150" alt="" />
+              <img className="u1" src="https://res.cloudinary.com/dtfxpyxoc/image/upload/c_limit,f_jpg,fl_lossy.any_format.preserve_transparency.progressive,h_1600,pg_1,q_auto,w_1600/v1/gallery_acting/ifidxpri1bsjvhaxnkqp" alt="" />
             </SwiperSlide>
             <SwiperSlide>
-              <img className="u2" src="http://placekitten.com/100/150" alt="" />
+              <img className="u2" src="https://res.cloudinary.com/dtfxpyxoc/image/upload/c_limit,f_jpg,fl_lossy.any_format.preserve_transparency.progressive,h_1600,pg_1,q_auto,w_1600/v1/gallery_acting/diqoxfrqzdckfaladbly" alt="" />
             </SwiperSlide>
             <SwiperSlide>
-              <img className="u4" src="http://placekitten.com/100/150" alt="" />
+              <img className="u4" src="https://res.cloudinary.com/dtfxpyxoc/image/upload/c_limit,f_jpg,fl_lossy.any_format.preserve_transparency.progressive,h_1600,pg_1,q_auto,w_1600/v1/gallery_acting/icakisjngtvjguwfybra" alt="" />
             </SwiperSlide>
           </Swiper>
         </div>
@@ -150,13 +150,13 @@ export default function TestimonialSection() {
             watchSlidesProgress={true}
             modules={[FreeMode, Navigation, Thumbs]}
           >
-            <SwiperSlide>
+<SwiperSlide>
               <div className="quote">
                 <img className="quote-icon" src="https://md-aqil.github.io/images/quote.png" alt="" />
                 <p>
-                  "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis mollitia, nostrum similique qui perferendis aliquam voluptatum magni repellat deleniti, nobis dicta. Optio veniam maiores nam sapiente suscipit eius provident aliquid."
+                  "Working with Anne has been an incredible journey of self-discovery and growth. She created a safe and enjoyable environment where I had so much fun while gaining the confidence to shine as an actor."
                 </p>
-                <div className="name">-Ben Dover-</div>
+                <div className="name">-Stacey Adams-</div>
                 <div className="designation">Student</div>
               </div>
             </SwiperSlide>
@@ -164,29 +164,29 @@ export default function TestimonialSection() {
               <div className="quote">
                 <img className="quote-icon" src="https://md-aqil.github.io/images/quote.png" alt="" />
                 <p>
-                  "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis mollitia, nostrum similique qui perferendis aliquam voluptatum magni repellat deleniti, nobis dicta. Optio veniam maiores nam sapiente suscipit eius provident aliquid."
+                  "Collaborating with Anne as a scriptwriter was an absolute pleasure. Her creative insights and attention to detail brought our project to life in ways I couldn't have imagined. I highly recommend working with her."
                 </p>
-                <div className="name">-Ben Dover-</div>
-                <div className="designation">Student</div>
+                <div className="name">-Gabi Rayleigh-</div>
+                <div className="designation">Writer</div>
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div className="quote">
                 <img className="quote-icon" src="https://md-aqil.github.io/images/quote.png" alt="" />
                 <p>
-                  "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis mollitia, nostrum similique qui perferendis aliquam voluptatum magni repellat deleniti, nobis dicta. Optio veniam maiores nam sapiente suscipit eius provident aliquid."
+                  "Performing alongside Anne in a theatrical production was an enriching experience. Her passion, dedication, and exceptional talent brought a magical energy to the stage."
                 </p>
-                <div className="name">-Ben Dover-</div>
-                <div className="designation">Student</div>
+                <div className="name">-Ben Layenski-</div>
+                <div className="designation">Actor</div>
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div className="quote">
                 <img className="quote-icon" src="https://md-aqil.github.io/images/quote.png" alt="" />
                 <p>
-                  "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis mollitia, nostrum similique qui perferendis aliquam voluptatum magni repellat deleniti, nobis dicta. Optio veniam maiores nam sapiente suscipit eius provident aliquid."
+                  "Anne's guidance and support took my acting skills to a whole new level. She helped me break through a plateau, deepening my connection with characters and bringing authenticity to my performances."
                 </p>
-                <div className="name">-Ben Dover-</div>
+                <div className="name">-Lucy Traton-</div>
                 <div className="designation">Student</div>
               </div>
             </SwiperSlide>

@@ -7,7 +7,7 @@ export default function PostsPage() {
   const [currentPage, setCurrentPage] = useState(0);
   const [pageCount, setPageCount] = useState(1);
 
-  const postsPerPage = 8;
+  const postsPerPage = 5;
 
   useEffect(() => {
     const skip = currentPage * postsPerPage;
@@ -16,7 +16,8 @@ export default function PostsPage() {
       .then((response) => response.json())
       .then(({ posts, pagination }) => {
         setPosts(posts);
-        setPageCount(Math.ceil(pagination.totalPages / postsPerPage));
+        setPageCount(Math.ceil(pagination.totalPages ));
+        console.log('pagination.totalPages: ',pagination.totalPages)
       });
   }, [currentPage]);
   
@@ -40,9 +41,9 @@ export default function PostsPage() {
       <section id="" className="blogHero main style1 dark">
         <div className="blogHeader content">
           <header>
-            <h2>Carmina's Blog</h2>
+            <h2>Anne's Blog</h2>
           </header>
-          <span>Everything you want to know about life</span>
+          <span>Anne: "Step into my world"</span>
         </div>
       </section>
 

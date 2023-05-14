@@ -121,20 +121,15 @@ export default function Header() {
                 </HashLink>
               </li>
               <li className="navList">
-              <HashLink id="mediaTrainingHLink" smooth to="/#mediaTraining" className="navLink" onClick={handleClick}>
-                    Media Training
-              </HashLink>
-              </li>
-              <li className="navList">
               <HashLink id="scriptHLink" smooth to="/#script" className="navLink" onClick={handleClick}>
                     Script Consultancy
               </HashLink>
               </li>
-              <li className="navList">
+              {/* <li className="navList">
               <HashLink id="aboutHLink" smooth to="/#about" className="navLink" onClick={handleClick}>
                     About
               </HashLink>
-              </li>
+              </li> */}
               <li className="navList">
               <Link id="blogLink" to="/posts" className="navLink" onClick={handleClick}>
                     Blog

@@ -34,7 +34,7 @@ export default function Contact() {
     const calendlyButton = document.querySelector(".calendly-button");
     if (calendlyButton) {
       calendlyButton.addEventListener("click", () => {
-        window.Calendly.showPopupWidget("https://calendly.com/niallmoo");
+        window.Calendly.showPopupWidget("https://calendly.com/annemarie1");
       });
     }
   }, []);
@@ -49,31 +49,13 @@ export default function Contact() {
               <li>
                 <h3>
                   <span>Email:</span>
-                  <a>carminabernhardt@gmail.com</a>
+                  <a>Annemcreative@mail.com</a>
                 </h3>
               </li>
               <li>
                 <h3>
-                  <span>Twitter:</span>
-                  <a>carmina</a>
-                </h3>
-              </li>
-              <li>
-                <h3>
-                  <span>Instagram:</span>
-                  <a>carmina</a>
-                </h3>
-              </li>
-              <li>
-                <h3>
-                  <span>Facebook:</span>
-                  <a>carmina</a>
-                </h3>
-              </li>
-              <li>
-                <h3>
-                  <span>LinkedIn:</span>
-                  <a>carmina</a>
+                  <span>Location:</span>
+                  <a>London</a>
                 </h3>
               </li>
             </ul>

@@ -3,7 +3,7 @@
 /* Blog header */
  .blogHero{
 		min-height: 60vh;
-		background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(http://placekitten.com/1500/1000) center/cover no-repeat fixed;
+		background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(https://res.cloudinary.com/dtfxpyxoc/image/upload/c_limit,f_jpg,fl_lossy.any_format.preserve_transparency.progressive,h_1600,pg_1,q_auto,w_1600/v1/gallery_acting/skhf77tltposbxdn0bh5) center/cover no-repeat fixed;
 		display: flex;
 		justify-content: center;
 		flex-direction: column;
@@ -371,8 +371,8 @@ form.login h1, form.register h1{
 */
 
 /* main content */
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,900");
-@import url("fontawesome-all.min.css");
+/* @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,500,900");
+@import url("fontawesome-all.min.css"); */
 
 .layoutWrapper{
 	display: flex;
@@ -386,6 +386,11 @@ body > section {
 	align-items: flex-start;
 }
 
+.mainContent img{
+	width: 40vw;
+	max-width: 400px;
+	border-radius: 50%;
+}
 
 .upperContainer, .lowerContainer{
 	display: flex;
@@ -396,10 +401,18 @@ body > section {
 
 .textContainer{
 	width: 45%;
+	margin: auto 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
 }
 .textContainer p{
 	width: 100% !important;
 	display: block;
+}
+
+.home.content span, .home.content ul *{
+	font-weight: 600;
 }
 
 @media screen and (max-width: 736px) {
@@ -416,6 +429,10 @@ body > section {
 
 	.textContainer{
 		width:100%;
+	}
+
+	.mainContent img{
+		width: 70vw;
 	}
 }
 
@@ -637,11 +654,11 @@ input, select, textarea {
 		margin: 0 8%;
 	}
 
-	.box.light{
+	.light{
 		color: #39454b;
 	}
 
-	.box.light a.button{
+	.light a.button{
 		border-color: #39454b;
 		border-width: 0.05rem;
 		font-weight:450;
@@ -1210,7 +1227,7 @@ input, select, textarea {
 /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 
 	header {
-		margin-bottom: 1em;
+		margin-bottom: 2em;
 	}
 
 		header p {
@@ -1372,10 +1389,15 @@ input, select, textarea {
 		/* color: #b0b3b3; */
 	}
 
+	.menuIcon{
+		filter: drop-shadow(0 0 3px white);
+	}
+
 	.contactIcon {
 		position: fixed;
 		width: auto;
 		bottom: 20px;
+		filter: drop-shadow(0 0 2px rgba(255, 255, 255, 0.5));
 		z-index: 100;
 	}
 	.contactIcon a *{
@@ -1758,31 +1780,24 @@ input, select, textarea {
 
 /* background */
 
-	.backgroundImage {
-		background: rgb(121, 121, 121);
-		background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
-		background-blend-mode: multiply,multiply;
-		background: url("http://placekitten.com/1000/800");
-		background-size: cover;
-		background-position: center;
-		background-repeat: no-repeat;
-		background-attachment: fixed;
-		z-index: -2;
-	  }
 
-	#myVideo{
-		z-index: -1;
-	}
-	#myVideo, .backgroundImage {
-		position: fixed;
-		left: 50%;
-		top: 50%;
-		transform: translate(-50%, -50%);
-		min-width: 100%;
-		min-height: 100%;
-   }
-
-
+.backgroundImage {
+	background: rgb(121, 121, 121);
+	background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
+	background-blend-mode: multiply,multiply;
+	background: url("../images/anneBackgroundImg.jpeg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	z-index: -1;
+	position: fixed;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	min-width: 100%;
+	min-height: 100%;
+  }
 
 
 /* Actor */
@@ -2022,8 +2037,11 @@ input, select, textarea {
   }
 
   @media (max-width: 1035px) {
-	.cardContainer .card:last-child{
+	.cardContainer{
 		display: block;
+	}
+	.cardContainer .card{
+		margin: 40px auto;
 	}
 	.card {
 		margin: 0 40px 40px 0;
