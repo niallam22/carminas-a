@@ -34,7 +34,7 @@ export default function Contact() {
     const calendlyButton = document.querySelector(".calendly-button");
     if (calendlyButton) {
       calendlyButton.addEventListener("click", () => {
-        window.Calendly.showPopupWidget("https://calendly.com/annemarie1");
+        window.Calendly.showPopupWidget("https://calendly.com/carminabproductions");
       });
     }
   }, []);
@@ -49,7 +49,7 @@ export default function Contact() {
               <li>
                 <h3>
                   <span>Email:</span>
-                  <a>Annemcreative@mail.com</a>
+                  <a>CarminaB@mail.com</a>
                 </h3>
               </li>
               <li>

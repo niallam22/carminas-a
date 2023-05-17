@@ -16,7 +16,6 @@ const corsOptions = {
 app.use(cors(corsOptions))
 app.use(express.json());
 app.use(cookieParser());
-app.use('/uploads', express.static(__dirname + '/uploads'));
 app.use(logger('dev'))
 
 app.use('/', mainRoutes)
@@ -25,13 +24,21 @@ app.use('/', mainRoutes)
 app.use(express.static(path.join(__dirname, "..", "client", "build")));
 
 // Catch-all route for serving index.html
-app.get('*', (req, res) => {
-  res.sendFile(path.join(__dirname, "..", 'client/build', 'index.html'));
+app.get('*', (req, res, next) => {
+  // Check if the request has been handled by previous routes
+  if (!res.headersSent) {
+    res.sendFile(path.join(__dirname, "..", 'client/build', 'index.html'));
+  } else {
+    next(); // Pass control to the next middleware or route handler
+  }
 });
 
-//Connect to the database before listening
-connectDB().then(() => {
+connectDB().then(()=>{
   app.listen(process.env.PORT, ()=>{
     console.log(`Server is running on port ${process.env.PORT}, you better catch it!`)
-  })  
-})
+  })
+}).catch((error)=>{console.log('error connecting to DB: ', error)})
+
+
+
+

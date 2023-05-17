@@ -4,10 +4,21 @@
  .blogHero{
 		min-height: 60vh;
 		background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(https://res.cloudinary.com/dtfxpyxoc/image/upload/c_limit,f_jpg,fl_lossy.any_format.preserve_transparency.progressive,h_1600,pg_1,q_auto,w_1600/v1/gallery_acting/skhf77tltposbxdn0bh5) center/cover no-repeat fixed;
-		display: flex;
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		/* background-attachment: fixed; */
+		z-index: -1;
+		position: fixed;
+		left: 50%;
+		top: 50%;
+		transform: translate(-50%, -50%);
+		min-width: 100%;
+		min-height: 100%;
+		/* display: flex;
 		justify-content: center;
 		flex-direction: column;
-		justify-content: stretch;
+		justify-content: stretch; */
 }
 
 .postsContainer{
@@ -1782,22 +1793,22 @@ input, select, textarea {
 
 
 .backgroundImage {
-	background: rgb(121, 121, 121);
-	background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
-	background-blend-mode: multiply,multiply;
-	background: url("https://res.cloudinary.com/dtfxpyxoc/image/upload/c_limit,f_jpg,fl_lossy.any_format.preserve_transparency.progressive,h_1600,pg_1,q_auto,w_1600/v1/gallery_acting/bd7pgjsgrrtmlncrzj2p");
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	z-index: -1;
-	position: fixed;
-	left: 50%;
-	top: 50%;
-	transform: translate(-50%, -50%);
-	min-width: 100%;
-	min-height: 100%;
-  }
+  background: rgb(121, 121, 121);
+  background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
+  background-blend-mode: multiply,multiply;
+  background-image: url("../images/backgroundImg.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  z-index: -1;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 100%;
+  min-height: 100%;
+}
 
 
 /* Actor */
@@ -1949,7 +1960,7 @@ input, select, textarea {
   }
   
   .card__image {
-	height: 100%;
+	min-height: 100%;
 	transition: 0.5s ease-in-out;
   }
   

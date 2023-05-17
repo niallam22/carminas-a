@@ -1,6 +1,6 @@
 import { motion, spring, Variants } from "framer-motion"
-import anneImg from "./assets/images/anneImg.jpeg"
-import anneImg2 from "./assets/images/anneImg2.jpeg"
+import img from "./assets/images/img.jpeg"
+import img2 from "./assets/images/img2.jpeg"
 
 export default function Actor(props){
 
@@ -43,7 +43,7 @@ export default function Actor(props){
 
                 <div className="mainContent">
                    <div className="upperContainer">
-                        <img src={anneImg} alt="Meisner" />
+                        <img src={img} alt="modeling" />
                         <div className="textContainer">
                           <p>I am an experienced actor specializing in both theatrical and screen performances, deeply connecting with the characters I portray to bring their stories to life from my own unique perspective. 
                             </p>
@@ -58,7 +58,7 @@ export default function Actor(props){
                             <p>Explore my portfolio to witness over 15 years of dedicated passion, joining me on an artistic journey of compelling storytelling and a shared exploration of what it means to be human.
                             </p>
                         </div>
-                        <img src={anneImg2} alt="Meisner" />
+                        <img src={img2} alt="modeling" />
                     </div>
 
                 </div>

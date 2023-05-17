@@ -1,6 +1,6 @@
 import { motion, spring, Variants } from "framer-motion"
-import anneImg3 from "./assets/images/anneImg3.jpeg"
-import anneImg4 from "./assets/images/anneImg4.jpeg"
+import img3 from "./assets/images/img3.jpeg"
+import img4 from "./assets/images/img4.jpeg"
 export default function Coach(){
 
     const contentAnimate={
@@ -32,7 +32,7 @@ export default function Coach(){
 
             <div className="mainContent">
                 <div className="upperContainer">
-                <img src={anneImg3} alt="anne modeling" />
+                <img src={img3} alt="modeling" />
                     <div className="textContainer">
                         <p>As an experienced actor and dedicated acting coach, I bring my passion for storytelling to guide and nurture aspiring performers in various realms of the craft. 
                         </p>
@@ -46,7 +46,7 @@ export default function Coach(){
                         <p>Join me on a transformative journey of self-discovery and artistic growth as we unlock the full potential of your acting abilities.
                         </p>
                     </div>
-                    <img src={anneImg4} alt="anne modeling" />
+                    <img src={img4} alt="modeling" />
                 </div>
 
             </div>
