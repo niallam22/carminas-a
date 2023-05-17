@@ -1,6 +1,6 @@
 import { motion, spring, Variants } from "framer-motion"
-import anneImg5 from "./assets/images/anneImg5.jpeg"
-import anneImg6 from "./assets/images/anneImg6.jpeg"
+import img5 from "./assets/images/img5.jpeg"
+import img6 from "./assets/images/img6.jpeg"
 
 export default function Script(){
 
@@ -31,7 +31,7 @@ export default function Script(){
             </header>
             <div className="mainContent">
                 <div className="upperContainer">
-                <img src={anneImg5} alt="anne modeling" />
+                <img src={img5} alt="modeling" />
                     <div className="textContainer">
                         <p>As an experienced actor and writer of theatrical and screen performances, I bring a unique perspective to script writing consultation,
                         </p>
@@ -46,7 +46,7 @@ export default function Script(){
                         <p>Get in touch and let's discuss how we can shape your script into a powerful and compelling story that reflects and speaks the truth of your creative vision.
                         </p>
                     </div>
-                    <img src={anneImg6} alt="anne modeling" />
+                    <img src={img6} alt="modeling" />
                 </div>
 
             </div>

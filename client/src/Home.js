@@ -1,5 +1,5 @@
 
-// import backgroundImg from "./assets/images/anneBackgroundImg.jpeg"
+// import backgroundImg from "./assets/images/backgroundImg.jpeg"
 import { HashLink } from 'react-router-hash-link'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { icon } from '@fortawesome/fontawesome-svg-core/import.macro'

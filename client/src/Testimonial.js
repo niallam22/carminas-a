@@ -60,7 +60,7 @@ export default function TestimonialSection() {
               <div className="quote">
                 <img className="quote-icon" src="https://md-aqil.github.io/images/quote.png" alt="" />
                 <p>
-                  "Working with Anne has been an incredible journey of self-discovery and growth. She created a safe and enjoyable environment where I had so much fun while gaining the confidence to shine as an actor."
+                  "Working with Carmina has been an incredible journey of self-discovery and growth. She created a safe and enjoyable environment where I had so much fun while gaining the confidence to shine as an actor."
                 </p>
                 <div className="name">-Stacey Adams-</div>
                 <div className="designation">Student</div>
@@ -70,7 +70,7 @@ export default function TestimonialSection() {
               <div className="quote">
                 <img className="quote-icon" src="https://md-aqil.github.io/images/quote.png" alt="" />
                 <p>
-                  "Collaborating with Anne as a scriptwriter was an absolute pleasure. Her creative insights and attention to detail brought our project to life in ways I couldn't have imagined. I highly recommend working with her."
+                  "Collaborating with Carmina as a scriptwriter was an absolute pleasure. Her creative insights and attention to detail brought our project to life in ways I couldn't have imagined. I highly recommend working with her."
                 </p>
                 <div className="name">-Gabi Rayleigh-</div>
                 <div className="designation">Writer</div>
@@ -80,7 +80,7 @@ export default function TestimonialSection() {
               <div className="quote">
                 <img className="quote-icon" src="https://md-aqil.github.io/images/quote.png" alt="" />
                 <p>
-                  "Performing alongside Anne in a theatrical production was an enriching experience. Her passion, dedication, and exceptional talent brought a magical energy to the stage."
+                  "Performing alongside Carmina in a theatrical production was an enriching experience. Her passion, dedication, and exceptional talent brought a magical energy to the stage."
                 </p>
                 <div className="name">-Ben Layenski-</div>
                 <div className="designation">Actor</div>
@@ -90,7 +90,7 @@ export default function TestimonialSection() {
               <div className="quote">
                 <img className="quote-icon" src="https://md-aqil.github.io/images/quote.png" alt="" />
                 <p>
-                  "Anne's guidance and support took my acting skills to a whole new level. She helped me break through a plateau, deepening my connection with characters and bringing authenticity to my performances."
+                  "Carmina's guidance and support took my acting skills to a whole new level. She helped me break through a plateau, deepening my connection with characters and bringing authenticity to my performances."
                 </p>
                 <div className="name">-Lucy Traton-</div>
                 <div className="designation">Student</div>
@@ -154,7 +154,7 @@ export default function TestimonialSection() {
               <div className="quote">
                 <img className="quote-icon" src="https://md-aqil.github.io/images/quote.png" alt="" />
                 <p>
-                  "Working with Anne has been an incredible journey of self-discovery and growth. She created a safe and enjoyable environment where I had so much fun while gaining the confidence to shine as an actor."
+                  "Working with Carmina has been an incredible journey of self-discovery and growth. She created a safe and enjoyable environment where I had so much fun while gaining the confidence to shine as an actor."
                 </p>
                 <div className="name">-Stacey Adams-</div>
                 <div className="designation">Student</div>
@@ -164,7 +164,7 @@ export default function TestimonialSection() {
               <div className="quote">
                 <img className="quote-icon" src="https://md-aqil.github.io/images/quote.png" alt="" />
                 <p>
-                  "Collaborating with Anne as a scriptwriter was an absolute pleasure. Her creative insights and attention to detail brought our project to life in ways I couldn't have imagined. I highly recommend working with her."
+                  "Collaborating with Carmina as a scriptwriter was an absolute pleasure. Her creative insights and attention to detail brought our project to life in ways I couldn't have imagined. I highly recommend working with her."
                 </p>
                 <div className="name">-Gabi Rayleigh-</div>
                 <div className="designation">Writer</div>
@@ -174,7 +174,7 @@ export default function TestimonialSection() {
               <div className="quote">
                 <img className="quote-icon" src="https://md-aqil.github.io/images/quote.png" alt="" />
                 <p>
-                  "Performing alongside Anne in a theatrical production was an enriching experience. Her passion, dedication, and exceptional talent brought a magical energy to the stage."
+                  "Performing alongside Carmina in a theatrical production was an enriching experience. Her passion, dedication, and exceptional talent brought a magical energy to the stage."
                 </p>
                 <div className="name">-Ben Layenski-</div>
                 <div className="designation">Actor</div>
@@ -184,7 +184,7 @@ export default function TestimonialSection() {
               <div className="quote">
                 <img className="quote-icon" src="https://md-aqil.github.io/images/quote.png" alt="" />
                 <p>
-                  "Anne's guidance and support took my acting skills to a whole new level. She helped me break through a plateau, deepening my connection with characters and bringing authenticity to my performances."
+                  "Carmina's guidance and support took my acting skills to a whole new level. She helped me break through a plateau, deepening my connection with characters and bringing authenticity to my performances."
                 </p>
                 <div className="name">-Lucy Traton-</div>
                 <div className="designation">Student</div>

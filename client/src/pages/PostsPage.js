@@ -41,9 +41,9 @@ export default function PostsPage() {
       <section id="" className="blogHero main style1 dark">
         <div className="blogHeader content">
           <header>
-            <h2>Anne's Blog</h2>
+            <h2>Carmina's Blog</h2>
           </header>
-          <span>Anne: "Step into my world"</span>
+          <span>Carmina: "Step into my world"</span>
         </div>
       </section>
 

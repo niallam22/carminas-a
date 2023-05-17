@@ -32,12 +32,13 @@ app.get('*', (req, res, next) => {
     next(); // Pass control to the next middleware or route handler
   }
 });
-// app.get('*', (req, res) => {
-//   res.sendFile(path.join(__dirname, "..", 'client/build', 'index.html'));
-// });
 
-connectDB()
+connectDB().then(()=> {
+  app.listen(process.env.PORT, ()=>{
+    console.log(`Server is running on port ${process.env.PORT}, you better catch it!`)
+  })
+}).catch(()=>{
+  console.log(error('failed to connect to database: ', error))
+})
 
-app.listen(process.env.PORT, ()=>{
-  console.log(`Server is running on port ${process.env.PORT}, you better catch it!`)
-})  
+
