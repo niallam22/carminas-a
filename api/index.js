@@ -33,9 +33,7 @@ app.get('*', (req, res, next) => {
   }
 });
 
-connectDB().catch(()=>{
-  console.log(error('failed to connect to database: ', error))
-})
+await connectDB()
 
 app.listen(process.env.PORT, ()=>{
   console.log(`Server is running on port ${process.env.PORT}, you better catch it!`)
