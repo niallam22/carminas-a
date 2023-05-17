@@ -13,7 +13,7 @@ export default function Home() {
 
 				<div className="home content">
 					<header>
-						<h2>Anne Marie</h2>
+						<h2>Carmina Bernhardt</h2>
 					</header>
 					<span>
 							Award winning actor, writer, director
