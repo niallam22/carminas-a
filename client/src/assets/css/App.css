@@ -1,24 +1,14 @@
 
 /* Blog */
 /* Blog header */
- .blogHero{
-		min-height: 60vh;
-		background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(https://res.cloudinary.com/dtfxpyxoc/image/upload/c_limit,f_jpg,fl_lossy.any_format.preserve_transparency.progressive,h_1600,pg_1,q_auto,w_1600/v1/gallery_acting/skhf77tltposbxdn0bh5) center/cover no-repeat fixed;
-		background-size: cover;
-		background-position: center;
-		background-repeat: no-repeat;
-		/* background-attachment: fixed; */
-		z-index: -1;
-		position: fixed;
-		left: 50%;
-		top: 50%;
-		transform: translate(-50%, -50%);
-		min-width: 100%;
-		min-height: 100%;
-		/* display: flex;
-		justify-content: center;
-		flex-direction: column;
-		justify-content: stretch; */
+
+.blogHero{
+	min-height: 60vh;
+	background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(https://res.cloudinary.com/dtfxpyxoc/image/upload/c_limit,f_jpg,fl_lossy.any_format.preserve_transparency.progressive,h_1600,pg_1,q_auto,w_1600/v1/gallery_acting/skhf77tltposbxdn0bh5) center/cover no-repeat fixed;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	justify-content: stretch;
 }
 
 .postsContainer{
