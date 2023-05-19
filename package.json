@@ -46,12 +46,13 @@
     "nodemon": "^2.0.22",
     "react-scripts": "5.0.1"
   },
+  "comments":" removed- build script cd client && npm run build",
   "scripts": {
     "dev": "concurrently \"npm:dev-client\" \"npm:dev-api\"",
     "dev-client": "cd client && npm start",
     "dev-api": "cd api && npm run dev",
     "start": "cd api && node index.js",
-    "build": "cd client && npm run build",
+    
     "mock-cyclic": "npm run build && npm run start",
     "lint": "eslint .",
     "lint:fix": "eslint --fix",
