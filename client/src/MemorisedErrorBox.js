@@ -11,5 +11,5 @@ function MemorisedErrorBox({ errorMessages }) {
     </div>
   );
 }
-//component will only re-render the component if the props passed to it have changed
+
 export default React.memo(MemorisedErrorBox);

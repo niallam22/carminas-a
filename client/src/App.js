@@ -29,8 +29,6 @@ import contentAnimate from './assets/animation/contentAnimate';
 
 function App() {
 
-  console.log(`app.js contentAnimateStr ${JSON.stringify(contentAnimate)}`) //returns string obj as expected
-  console.log(`app.js contentAnimateObj ${{contentAnimate}}`) //returns [object Object]
   return (
     // user context makes user available to the child components
     <UserContextProvider> 

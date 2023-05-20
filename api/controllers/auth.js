@@ -1,8 +1,8 @@
 const User = require('../models/User')
 const { jwt } = require('../config/jwt');
 require('dotenv').config({path: './config/.env'})
-
 // const validator = require('validator')
+
 const bcrypt = require('bcryptjs');
 const salt = bcrypt.genSaltSync(10);
 

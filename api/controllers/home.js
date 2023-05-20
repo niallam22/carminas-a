@@ -1,6 +1,4 @@
-// const User = require('../models/User')
 const Post = require('../models/Post')
-// const fs = require('fs');
 require('dotenv').config({path: './config/.env'})
 const nodemailer = require('nodemailer');
 const cloudinary = require("../middleware/cloudinary");
@@ -10,6 +8,7 @@ exports.createPost = async (req, res, next) => {
       // Upload image to cloudinary
       const result = await cloudinary.uploader.upload(req.file.path);
       const {title,summary,content} = req.body;
+      //create mongoDB post document
       const postDoc = await Post.create({
         title,
         summary,
@@ -31,7 +30,7 @@ exports.updatePost = async (req, res, next) => {
     const {id,title,summary,content} = req.body;
     let newCover = null;
     let postDoc = await Post.findById(id);
-
+     //validate if user is author
       const isAuthor = JSON.stringify(postDoc.author) === JSON.stringify(req.user.id);
       if (!isAuthor) {
         return res.status(400).json('you are not the author');
@@ -61,6 +60,7 @@ exports.deletePost = async (req, res, next) => {
     try {
       const id = req.params.id;
       let postDoc = await Post.findById(id);
+      //validate if user is author
       const isAuthor = JSON.stringify(postDoc.author) === JSON.stringify(req.user.id);
       if (!isAuthor) {
           return res.status(400).json('you are not the author');
@@ -106,10 +106,6 @@ exports.getPosts = async (req, res, next) => {
       res.status(404);
     }
   };
-  
-
-
-
 
 exports.getPost = async (req, res, next) => {
   try {
@@ -123,9 +119,9 @@ exports.getPost = async (req, res, next) => {
 
 }
 
+//forwards contact form to email
 exports.submitContactForm = async(req, res, next) => {
   const { name, email, message } = req.body;
-
   console.log('submitContactForm home controller user: ',process.env.user)
   const transporter = nodemailer.createTransport({
     host: 'smtp-relay.sendinblue.com',

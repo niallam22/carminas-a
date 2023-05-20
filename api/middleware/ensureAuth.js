@@ -1,5 +1,6 @@
 const { jwt } = require('../config/jwt');
 
+//check if jwt token is valid
 exports.ensureAuth = async (req, res, next) => {
     const { token } = req.cookies;
     if (!token) {

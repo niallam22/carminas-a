@@ -18,6 +18,7 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(logger('dev'))
 
+// Routes
 app.use('/', mainRoutes)
 
 // Serve static files
