@@ -21,7 +21,7 @@ This project is a fullstack MERN web application with the following features:
 - SMTP connected forms
 - Responsive and mobile friendly design
 
-## Optimisations
+## Optimisations and future work
 
 1. Code splitting to decrease load time
 2. Host all images via cloud to reduce build size (currently only blog and gallery images are in cloud storage)
