@@ -26,7 +26,7 @@ This project is a fullstack MERN web application with the following features:
 1. Code splitting to decrease load time
 2. Host all images via cloud to reduce build size (currently only blog and gallery images are in cloud storage)
 3. Implement static-site-generation to content not subject to changes (i.e. home page) to improve SEO and download speed
-4. Implement server-side-generation to blog content to improve SEO and download speed
+4. Implement server-side-generation to dynamic blog routes to improve SEO and download speed e.g using Next.js to pre-render the dynamic routes
 
 ## Running Locally
 
