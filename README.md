@@ -2,7 +2,7 @@
 
 A portfolio website for an actor, writer and coach.
 
-### Link to project: https://carminas.up.railway.app/
+### Link to project: https://carmina.cyclic.app/
 ![Setting up a meeting](carminas-a-readme.gif?raw=true "Booking a meeting")
 
 ## About this project
@@ -12,12 +12,12 @@ This project is a fullstack MERN web application with the following features:
 - JWT user authentication
 - Dynamically generated blog
 - Integrated text editor
-- Pagination
+- Pagination enabled blog navigation 
 - CRUD APIs and middleware to manage blog access
 - Cloud hosted content
 - Animated and interactive UI
 - Gallery modal
-- Integrated booking system
+- Integrated meeting booking system
 - SMTP connected forms
 - Responsive and mobile friendly design
 
