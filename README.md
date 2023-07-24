@@ -1,4 +1,4 @@
-# Carminas app
+# Casting Carmina
 
 A portfolio website for an actor, writer and coach.
 
