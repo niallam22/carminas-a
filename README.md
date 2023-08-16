@@ -13,8 +13,8 @@ This project is a fullstack MERN web application with the following features:
 - Dynamically generated blog
 - Integrated text editor
 - Pagination enabled blog navigation 
-- CRUD APIs and middleware to manage blog access
-- Cloud hosted content
+- CRUD APIs and user authenticated endpoints to manage blog access
+- Cloud hosted image content
 - Animated and interactive UI
 - Gallery modal
 - Integrated meeting booking system
